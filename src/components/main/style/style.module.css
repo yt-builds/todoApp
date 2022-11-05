@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container input {
+    width: 30rem;
+    height: 2.2rem;
+    outline: none;
+}
+
+.buttonSpan {
+    background-color: var(--brownColor);
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 0.3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.enterTodoContainer {
+    display: flex;
+    /* width: 20vw; */
+    gap: 1rem;
+}
